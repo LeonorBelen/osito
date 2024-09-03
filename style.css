@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+}
+.caja1{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: fixed; /*posicion fija quiere decir fixed lo que dice top es arriba y left es de la izquierda*/
+    top: 100px;
+
+    left: 200px;
+}
+.caja2{
+    background-color: rgb(240, 8, 8);
+    width: 100px;
+    height: 100px;
+    position: static; /*es estatico con el texto no necesita que le coloque cuanto a la derecha ni izquierda porque es estatico*/
+    top: 100px;
+    left: 350px;
+
+}
+.caja3{
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    position: relative; /* esto cuenta las mediadas de la caja anterio psea los top es respecto a la caja roja y los 150 px respecto a la caja padre*/
+    top: 50px;
+    left: 200px;
+}
+.caja3-1{
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    border-style: dotted;
+    border: color(srgb  green blue);
+}
+.caja4{
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+    position: absolute; /*esto es absoluto y mide las medidas del contenedor padre osea el mas grande */
+    top: 150px;
+    left: 50px;
+}
+.caja5{
+    background-color: darkcyan;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 20px;
+    left: 30px;
+}
